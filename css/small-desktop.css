@@ -1,0 +1,122 @@
+body {
+	width:100%;
+	background-image:url(/img/postersanfrancisco.jpg);
+	background-repeat:repeat-x;
+	position:fixed;
+	
+}
+
+
+#main-container {
+	background-color: rgba(3, 3, 3, 0.64);
+	width:100%;
+	position:absolute;
+	height:240px;
+	z-index: -1
+
+}
+
+
+
+
+
+#star-five {
+	 display:inline-block;
+   margin: 50px 0;
+   color: #0e0e0f;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #150505;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid #150505;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: #0e0e0f;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #150505;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+
+}
+
+
+h1 {
+	font-size: 150px;
+	font-family: helvetica;
+	color:white;
+	display:inline-block;
+	vertical-align:bottom;
+	position:relative;
+	text-shadow: 5px 5px 5px black;
+	
+			
+}
+
+h1#left-title {
+	
+	margin-left:0px;
+}
+
+h1#right-title{
+
+	margin-right:0px;
+}
+footer {
+	position:fixed;
+	bottom:0px;
+	font-size:20px;
+	color:#796262;
+	font-family:serif;
+	background-color:white;
+	height:25px;
+	width:100%;
+	text-align:center;
+	padding-top:3px;
+	
+}
+div#centerbox {
+	text-align:center;
+	padding-top:25px;
+
+
+}
+
+
+#resume img {
+	border-radius:100px 100px 100px 100px;
+	width:200px;
+	
+	
+	
+}
