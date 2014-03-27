@@ -112,10 +112,43 @@ div#centerbox {
 
 }
 
+#container2 {
+	width:100%;
+	margin-top: 320px;
+}
 
-#resume img {
-	border-radius:100px 100px 100px 100px;
+.resume {
+	width:300px;
+	margin:auto;
+}
+
+#resume {
+	border-radius:300px 300px 300px 300px;
+	width:300px;
+	
+				
+}
+
+h3 {
+	font-size:50px;
+	color:white;
+	background-color:rgba(3, 3, 3, 0.84);
+	text-align:center;
+	border-radius: 50px;
+	
+
+}
+
+#ig-definition {
+	display:inline-block;
+	color:white;
+	background-color:rgba(0, 0, 0, 0.82);
 	width:200px;
+	position:fixed;
+	bottom:30px;
+	padding:10px;
+	font-family:serif;
+	
 	
 	
 	
