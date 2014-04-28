@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/reset.css">
-        
-     <!-- This is the main css style sheet  --> 
-        <link rel="stylesheet" href="css/phone.css">
-        
-     <!-- these are for developing a responsive website -->   
-        <link rel="stylesheet" media="(max-width: 1069px)" href="css/tablet.css" />
-        <link rel="stylesheet" media="(min-width: 1070px)" href="css/small-desktop.css" />
-        <link rel="stylesheet" media="(min-width: 1200px)" href="css/large-desktop.css" />
-        
-        
-        <!--[if lt IE 9]>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!-- This is the main css style sheet  -->
+	<link rel="stylesheet" href="css/phone.css">
+
+	<!-- these are for developing a responsive website -->
+	<link rel="stylesheet" media="(max-width: 929px)" href="css/tablet.css" />
+	<link rel="stylesheet" media="(min-width: 930px)" href="css/small-desktop.css" />
+	
+
+
+	<!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
-    </head>
-    <body>
-    	<div id="main-container">
-      	<img id="selfphoto" src="img/photomatt.jpg" alt="photo of matt"/>
-    	<h1 id="left-title">Matthew Highland</h1>
-			
-       </div> 
-       </div>
-        
-        <div id="container2">
-        <div class="resume"><a href="http://ichibangaijin.github.io/Thinkful-Projects/resume/">
-        	
-       
-        
-     <footer>
-     	&copy;matthew highland 2014
-     </footer>
+</head>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>$(function(){$("#main-container").slideDown();});</script>
-    </body>
+<body>
+	<div id="main-container">
+		<img id="selfphoto" src="img/photomatt.jpg" alt="photo of matt" />
+		<h1>Matthew Highland</h1>
+		<h2>bay area jr. web developer</h2>
+	</div>
+
+<div id="container2">
+<div id="gitcontainer">
+<img id="github" src="img/github-mark.jpg" alt="github"/>
+</div>
+<div id="resumecontainer">
+<img id="resume" src="img/resume-istock-(1).jpg" alt="resume"/>
+</div>
+</div>
+
+				<footer>
+					<a href="mailto:matthewhighland77@gmail.com">matthewhighland77@gmail.com</a>
+				</footer>
+
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+				<script>
+					$(function(){$("#gitcontainer, #resumecontainer").mouseover(function(){$(this).css("background-color","rgba(209, 25, 25, 0.68)");});
+											$("#gitcontainer, #resumecontainer").mouseleave(function(){$(this).css("background-color","rgba(21, 19, 19, 0.74)")});
+											});
+				</script>
+</body>
+
 </html>
