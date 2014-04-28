@@ -53,6 +53,7 @@ h2 {
 }
 
 #github {
+	clear:left;
 	width: 250px;
 	height:250px;
 	border-radius: 120px;
