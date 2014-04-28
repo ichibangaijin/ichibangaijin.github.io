@@ -30,7 +30,7 @@ h1 {
 	padding-top: ;
 	font-family: helvetica;
 	color:white;
-	width: 250px;
+	width: 180px;
 	display:inline-block;
 	text-shadow: 2px 2px 5px #0d0c0c;
 
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
 	display:inline-block;
-	width: 250px;
+	width: 180px;
 	padding-top: 5px;
 	font-size: 20px;
 	color:rgba(255, 255, 255, 0.61);
