@@ -74,14 +74,22 @@ h2 {
 
 #resumePopout {
 	display:none;
-	background-color: rgba(3, 3, 3, 0.64);
+	background-color: #0d0c0c;
 	color: white;
 	width: 400px;
-	position:relative;
-	right:0px;
-	top:0px;
-	
-	
+	padding:20px;
+	font-size: 20px;
+	position:absolute;
+	right:10px;
+	top:50px;
+	line-height: 30px;
+	border-radius: 30px;
+		
+}
+
+#resumePopout h2 {
+	font-size: 30px;
+
 }
 
 #gitcontainer {
@@ -117,6 +125,13 @@ h2 {
 	background-color:#0d0c0c;
 	border-radius: 10px;
 	margin-right: 5%;
+}
+
+button#close {
+	width: 75px;
+	display:block;
+	font-size: 15px;
+	margin:auto;
 }
 
 
