@@ -16,7 +16,7 @@
 	<!-- these are for developing a responsive website -->
 	<link rel="stylesheet" media="(max-width: 1013px)" href="css/tablet.css" />
 	<link rel="stylesheet" media="(min-width: 1014px)" href="css/small-desktop.css" />
-	
+
 
 
 	<!--[if lt IE 9]>
@@ -28,32 +28,39 @@
 <body>
 	<div id="main-container">
 		<img id="selfphoto" src="img/photomatt.jpg" alt="photo of matt" />
-		<h1>Matthew Highland</h1><br>
+		<h1>Matthew Highland</h1>
+		<br>
 		<h2>bay area jr. web developer</h2>
 	</div>
 
-<div id="container2">
-<div id="gitcontainer">
-<img id="github" src="img/github-mark.jpg" alt="github"/>
-</div>
-<div id="resumecontainer">
-<img id="resume" src="img/resume-istock-(1).jpg" alt="resume"/>
-</div>
-<div id="blogcontainer">
-	<img id="blog" src="img/Blog-2.jpg" alt="blog"/>
-</div>
-</div>
+	<div id="container2">
+		
+			<a href="https://github.com/ichibangaijin?tab=repositories">
+			<div id="gitcontainer">
+			<img id="github" src="img/githubtexture.jpg" alt="github" />
+		</div>
+		</a>
+		<div id="resumecontainer">
+			<img id="resume" src="img/resume-istock-(1).jpg" alt="resume" />
+		</div>
 
-				<footer>
-					<a href="mailto:matthewhighland77@gmail.com">matthewhighland77@gmail.com</a>
-				</footer>
+		<a href="http://ichibangaijin.wordpress.com/author/ichibangaijin/">
+			<div id="blogcontainer">
+				<img id="blog" src="img/Blog-2.jpg" alt="blog" />
+			</div>
+		</a>
+	</div>
 
-				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-				<script>
-					$(function(){$("#gitcontainer, #resumecontainer, #blogcontainer").mouseover(function(){$(this).css("background-color","rgba(209, 25, 25, 0.68)");});
+	<footer>
+		<a href="mailto:matthewhighland77@gmail.com">matthewhighland77@gmail.com</a>
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+		$(function(){$("#gitcontainer, #resumecontainer, #blogcontainer").mouseover(function(){$(this).css("background-color","rgba(209, 25, 25, 0.68)");});
 											$("#gitcontainer, #resumecontainer, #blogcontainer").mouseleave(function(){$(this).css("background-color","rgba(21, 19, 19, 0.74)")});
 											});
-				</script>
+	</script>
 </body>
 
 </html>
