@@ -16,6 +16,7 @@
 	<!-- these are for developing a responsive website -->
 	<link rel="stylesheet" media="(max-width: 1013px)" href="css/tablet.css" />
 	<link rel="stylesheet" media="(min-width: 1014px)" href="css/small-desktop.css" />
+	<link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
 
 
 
@@ -28,21 +29,23 @@
 <body>
 	<div id="main-container">
 		<img id="selfphoto" src="img/photomatt.jpg" alt="photo of matt" />
-		<h1>Matthew Highland</h1>
+		<h1>Matt Highland</h1>
 		<br>
 		<h2>bay area jr. web developer</h2>
 	</div>
 
 	<div id="container2">
-		
-			<a href="https://github.com/ichibangaijin?tab=repositories">
+
+		<a href="https://github.com/ichibangaijin?tab=repositories">
 			<div id="gitcontainer">
-			<img id="github" src="img/githubtexture.jpg" alt="github" />
-		</div>
+				<img id="github" src="img/githubtexture.jpg" alt="github" />
+			</div>
 		</a>
-		<div id="resumecontainer">
-			<img id="resume" src="img/resume-istock-(1).jpg" alt="resume" />
-		</div>
+		
+			<div id="resumecontainer">
+				<img id="resume" src="img/resume-istock-(1).jpg" alt="resume" />
+			</div>
+
 
 		<a href="http://ichibangaijin.wordpress.com/author/ichibangaijin/">
 			<div id="blogcontainer">
@@ -50,6 +53,42 @@
 			</div>
 		</a>
 	</div>
+
+	<div id="resumePopout">
+		<h2>Web Development Training</h2>
+		<h4>Thinkful Front End Designer Course</h4>
+		<li>
+			<h4>2014- currently enrolled</h4>
+		</li>
+		<h4>Tea Leaf Academy Intro to Ruby Language</h4>
+		<li>
+			<h4>Sept 2013- Dec 2013</h4>
+		</li>
+		</article>
+		<br>
+		<article>
+			<h2>Previous Positions</h2>
+			<h4>International Shipping Sales Executive</h4>
+			<li>
+				<h4>2008-2014, worked for Chinese, Taiwanese, and Israeli Ocean Carriers.</h4>
+			</li>
+			<h4>Elementary School Teacher</h4>
+			<li>
+				<h4>2002-2008, worked in Tokyo, Kurashiki, and Los Gatos, CA as school teacher.</h4>
+			</li>
+		</article>
+		<br>
+		<article>
+			<h2>Education</h2>
+			<h4>San Francisco State, MBA 2010</h4>
+		</article>
+
+		<article>
+			<h2>Interests</h2>
+			<h4>I love impossible challenges and fixing anything that is broken. I am highly addicted to how-to books.</h4>
+			<button id="close">close</button>
+	</div>   
+	<!-- end of pop out resume -->
 
 	<footer>
 		<a href="mailto:matthewhighland77@gmail.com">matthewhighland77@gmail.com</a>
@@ -60,6 +99,12 @@
 		$(function(){$("#gitcontainer, #resumecontainer, #blogcontainer").mouseover(function(){$(this).css("background-color","rgba(209, 25, 25, 0.68)");});
 											$("#gitcontainer, #resumecontainer, #blogcontainer").mouseleave(function(){$(this).css("background-color","rgba(21, 19, 19, 0.74)")});
 											});
+											
+		$(function(){
+    $("#resumecontainer").click(function(){
+        $("#resumePopout, #close").toggle('slow');
+    });
+});									
 	</script>
 </body>
 
