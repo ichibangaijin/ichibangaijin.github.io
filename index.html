@@ -85,47 +85,72 @@
         <article>
             <h2>Interests</h2>
             <h4>I love impossible challenges and fixing anything that is broken. I am highly addicted to how-to books.</h4>
-            </article>
-            <button id="close">close</button>
-</div>
+        </article>
+        <button id="close">close</button>
+    </div>
     <!-- end of pop out resume -->
 
     <h3>sorry, below is under construction (give me a couple days...)</h3>
 
 
-<section class="centered">
-        <article class="sampleWebsites">
-            <h2>Website for Logistics Company</h2>
-            <p>Currently developing new website for major global shipping company.  Using Bootstrap, HTML5/CSS3 Responsive, Jquery, and JavaScript.</p>
-        </article>
-        <aside class="imageWebsite"><img src="img/grexamples.jpg" alt="website img" width="420px"/></aside>
-    </section>
 
     <section class="centered">
         <article class="sampleWebsites">
             <h2>Just for fun</h2>
-            <p>This website is modeled after an actual bay area's website, which I think has a very nice look to.  I just wanted to have some reminiciing about my first computer, the TRS-80.  HTML5/CSS3, Jquery, Javascript.</p>
+            <p>This website is modeled after an actual bay area's website, which I think has a very nice look to. I just wanted to have some reminiciing about my first computer, the TRS-80. HTML5/CSS3, Jquery, Javascript.</p>
         </article>
-        <aside class="imageWebsite"><img src="img/digitalrain.jpg" alt="website" width="400px"/></aside>
+        <a href="http://ichibangaijin.github.io/digital-storm-mockup" target="_blank">
+            <aside class="imageWebsite">
+                <img src="img/digitalrain.jpg" alt="website" width="400px"/></a></aside>
     </section>
 
     <section class="centered">
         <article class="sampleWebsites">
             <h2>Website for trucking company</h2>
-            <p>This website is meant to attract customers to sign up for their web-booking service.  I also created a short video to help explain the product.  I used a Woofoo form since I can't put PHP on the free Github-hosted webpage.  HTML5/CSS3 Responsive.  </p>
+            <p>This website is meant to attract customers to sign up for their web-booking service. I also created a short video to help explain the product. I used a Woofoo form since I can't put PHP on the free Github-hosted webpage. HTML5/CSS3 Responsive.</p>
         </article>
-        <aside class="imageWebsite"><img src="img/usgroup.jpg" width="430px" alt="website img"/></aside>
+        <a href="http://usgroupltl.com" target="_blank">
+            <aside class="imageWebsite">
+                <img src="img/usgroup.jpg" width="430px" alt="website img" />
+        </a>
+        </aside>
     </section>
 
     <section class="centered">
         <article class="sampleWebsites">
-            <h2>Shopping List </h2>
-            <p>This is a single page, fun app, that was a project for the Thinkful web developers course.  Jquery, JavaScript.  </p>
+            <h2>Website for kindle author </h2>
+            <p>This is a single page, static site for an author that wrote a great introduction book for JavaScript. I worked on the UI as well. The goal was to make a very no-nonsense site that points the reader to the Amazon store. HTML5/CSS3 Jquery, Responsive.</p>
         </article>
-        <aside class="imageWebsite"><img src="img/shopingimg.jpg" alt="website img" width="440px"/></aside>
+        <a href="http://ichibangaijin.github.io/SmarterWayWebsite2" target="_blank">
+            <aside class="imageWebsite">
+                <img src="img/smarterwaysample.jpg" alt="website img" width="440px" />
+        </a>
+        </aside>
     </section>
 
 
+    <section class="centered">
+        <article class="sampleWebsites">
+            <h2>Shopping List </h2>
+            <p>This is a single page, fun app, that was a project for the Thinkful web developers course. Jquery, JavaScript.</p>
+        </article>
+        <a href="http://ichibangaijin.github.io/shoppingapp" target="_blank">
+            <aside class="imageWebsite">
+                <img src="img/shopingimg.jpg" alt="website img" width="440px" />
+        </a>
+        </aside>
+    </section>
+
+
+    <section class="centered">
+        <article class="sampleWebsites">
+            <h2>Website for Logistics Company</h2>
+            <p>Currently developing new website for major global shipping company. Using Bootstrap, HTML5/CSS3 Responsive, Jquery, and JavaScript.</p>
+        </article>
+        <aside class="imageWebsite">
+            <img src="img/grexamples.jpg" alt="website img" width="420px" />
+        </aside>
+    </section>
 
 
 
@@ -135,26 +160,37 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>
-        $(function(){$("#gitcontainer, #resumecontainer, #blogcontainer").mouseover(function(){$(this).css("background-color","rgba(209, 25, 25, 0.68)");});
-                                            $("#gitcontainer, #resumecontainer, #blogcontainer").mouseleave(function(){$(this).css("background-color","rgba(21, 19, 19, 0.74)")});
-                                            });
+        $(function () {
+            $("#gitcontainer, #resumecontainer, #blogcontainer").mouseover(function () {
+                $(this).css("background-color", "rgba(209, 25, 25, 0.68)");
+            });
+            $("#gitcontainer, #resumecontainer, #blogcontainer").mouseleave(function () {
+                $(this).css("background-color", "rgba(21, 19, 19, 0.74)")
+            });
+        });
 
-        $(function(){
-    $("#resumecontainer, #close").click(function(){
-        $("#resumePopout").toggle('slow');
-    });
-});
+        $(function () {
+            $("#resumecontainer, #close").click(function () {
+                $("#resumePopout").toggle('slow');
+            });
+        });
     </script>
 </body>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-51020405-2', 'ichibangaijin.github.io');
-  ga('send', 'pageview');
-
+    ga('create', 'UA-51020405-2', 'ichibangaijin.github.io');
+    ga('send', 'pageview');
 </script>
 
 </html>
