@@ -2,7 +2,7 @@
 body {
     margin:auto;
     padding:0;
-    width:110%;
+    width:100%;
     background-image:url(../img/postersanfrancisco.jpg);
   background-size:auto;
 
@@ -152,15 +152,11 @@ button#close {
 
 footer {
     clear:both;
-    bottom:0px;
-    width:100%;
     background-color: rgba(3, 3, 3, 0.64);
     color:white;
-    text-align:center;
     font-size: 16px;
     font-family: helvetica;
-    padding: 10px;
-
+    text-align: center;
 }
 
 a {
@@ -219,6 +215,4 @@ aside img {
 #contactMe {
     display:block;
     margin-top: 15px;
-    margin-left: 170px;
-}
 }
