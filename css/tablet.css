@@ -1,6 +1,11 @@
+
 body {
-    width:100%;
+    margin:auto;
+    padding:0;
+    width:110%;
     background-image:url(../img/postersanfrancisco.jpg);
+  background-size:auto;
+
 
 }
 
@@ -15,7 +20,7 @@ body {
 
 img#selfphoto {
   width: 120px;
-    float:left;
+  float:left;
   border-radius: 5px;
   margin-left: 10px;
   margin-top: 10px;
@@ -49,7 +54,7 @@ h2 {
 
 #container2 {
     text-align:left;
-    margin-top:25px;
+    margin-top:0px;
 
 }
 
