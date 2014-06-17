@@ -46,7 +46,7 @@
       </div>
     </a>
 
-    <div id="resumecontainer">
+    <div id="resumeContainer">
       <img id="resume" src="img/resume-istock-(1).jpg" alt="resume" />
     </div>
 
@@ -58,48 +58,30 @@
     </a>
   </section>
 
-  <div id="resumePopout">
-    <h2>Web Development Training</h2>
-    <h4>Thinkful Front End Designer Course</h4>
-    <ul>
-      <li>
-        <h4>2014- currently enrolled</h4>
-      </li>
-    </ul>
-    <h4>Tea Leaf Academy Intro to Ruby Language</h4>
-    <ul>
-      <li>
-    </ul>
-    <h4>Sept 2013- Dec 2013</h4>
-    </li>
-    <br>
-    <article>
-      <h2>Previous Positions</h2>
-      <h4>International Shipping Sales Executive</h4>
-      <ul>
-        <li>
-          <h4>2008-2014, worked for Chinese, Taiwanese, and Israeli Ocean Carriers.</h4>
-        </li>
-      </ul>
-      <h4>Elementary School Teacher</h4>
-      <ul>
-        <li>
-          <h4>2002-2008, worked in Tokyo, Kurashiki, and Los Gatos, CA as school teacher.</h4>
-        </li>
-      </ul>
-    </article>
-    <br>
-    <article>
-      <h2>Education</h2>
-      <h4>San Francisco State, MBA 2010</h4>
-    </article>
-
-    <article>
-      <h2>Interests</h2>
-      <h4>I love impossible challenges and fixing anything that is broken. I am highly addicted to how-to books.</h4>
-    </article>
-    <button id="close">close</button>
-  </div>
+  <div id="resumePopOut">
+    <h2 class="sectionTitle">Web Development Training</h2>
+    <h3>Thinkful Front End Developer Course</h3>
+        <p>>> 2014- currently enrolled
+        <br>>> expected graduation last week of June 2014</p>
+            <ul><b>Summary of skills studied:</b>
+                <li>HTML5 - highly proficient</li>
+                <li>CSS3 - highly proficient</li>
+                <li>Bootstrap/CSS frameworks - proficient</li>
+                <li>JavaScript - intermediate proficiency</li>
+                <li>Jquery - intermediate proficiency</li>
+                <li>Adobe CC - intermediate proficiency</li>
+                <li>MongoDB - beginner </li>
+                <li>SASS/LESS - beginner </li>
+                <li>GitHub -  Intermediate</li>
+            </ul>
+            <ul><b>Favorite development tools:</b>
+                <li>Text Editor : Brackets.io</li>
+                <li>Current System : Mac mini i5;</li>
+                    <li>Browser of Choice : Chrome;</li>
+                    <li>JavaScript playground : JSfiddle.net;</li>
+                   </ul>
+         </div>  
+        
   <!-- end of pop out resume -->
 
   <h3>below are some projects I have worked on recently. </h3>
@@ -188,17 +170,17 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script>
     $(function () {
-      $("#gitcontainer, #resumecontainer, #blogcontainer").mouseover(function () {
+      $("#gitcontainer, #resumeContainer, #blogcontainer").mouseover(function () {
         $(this).css("background-color", "rgba(209, 25, 25, 0.68)");
       });
-      $("#gitcontainer, #resumecontainer, #blogcontainer").mouseleave(function () {
+      $("#gitcontainer, #resumeContainer, #blogcontainer").mouseleave(function () {
         $(this).css("background-color", "rgba(21, 19, 19, 0.74)")
       });
     });
 
     $(function () {
-      $("#resumecontainer, #close").click(function () {
-        $("#resumePopout").toggle('slow');
+      $("#resumeContainer").click(function () {
+        $("#resumePopOut").slideToggle('slow');
       });
     });
   </script>

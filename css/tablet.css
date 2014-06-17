@@ -39,12 +39,20 @@ h1 {
 
 h2 {
     display:inline-block;
-    width: 180px;
+    width: 150px;
     padding-top: 5px;
     font-size: 20px;
     color:rgba(255, 255, 255, 0.61);
     margin-left:10px;
 
+}
+
+
+
+li {
+  text-indent: 20px;
+  line-height: 2
+  
 }
 
 #container2 {
@@ -63,7 +71,7 @@ h2 {
 
 }
 
-#resumecontainer {
+#resumeContainer {
     display:block;
     width: 100%;
     height:250px;
@@ -80,32 +88,27 @@ h2 {
 
 }
 
-
-#resumePopout {
-    display:none;
-    background-color: #0d0c0c;
-    color: white;
-    width: 70%;
-    max-width:550px;
-    text-indent:10px;
-    position:absolute;
-    top: 200px;
-    font-size: 16px;
-    line-height: 30px;
-
-
+#resumePopOut {
+  display:none; 
+  position:absolute;
+  text-indent: 40px;
+  left:10px;
+  top: 200px;
+  width:95%;
+  background-color:red;
+  
 }
 
-#resumePopout ul{
-    text-indent:10px;
+#resumePopOutContainer {
+  width:95%; 
+  
 }
-
-#resumePopout h2 {
-    font-size: 20px;
-  text-align:left;
-
+.sectionTitle {
+  width:100%;
+  font-size:25px;
+  text-align: left;
+    
 }
-
 
 button#close {
     width: 100%;
@@ -114,6 +117,13 @@ button#close {
     margin:auto;
     padding:10px 0 10px;
 }
+
+b {
+  display:block;
+  margin-top:20px;
+ font-weight: 900;
+  font-size: 20px;
+  }
 
 
 
@@ -216,4 +226,4 @@ aside img {
     margin-top: 15px;
     margin-left: 170px;
 }
-}
+
