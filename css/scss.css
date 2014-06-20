@@ -1,0 +1,193 @@
+/* line 19, scss.scss */
+body {
+  max-width: 100%;
+  height: auto;
+  background-color: #202057;
+  background-image: url(../img/postersanfrancisco.jpg);
+  background-repeat: repeat-x; }
+
+/* line 29, scss.scss */
+#main-container {
+  background-color: rgba(3, 3, 3, 0.64);
+  width: 100%;
+  height: 190px; }
+  /* line 33, scss.scss */
+  #main-container img {
+    width: 150px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px; }
+  /* line 40, scss.scss */
+  #main-container h1 {
+    font-size: 75px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 50px;
+    font-family: helvetica, arial, sans-serif;
+    color: #9b9b9b;
+    display: inline-block;
+    width: 65%;
+    text-shadow: 1px 1px 1px white; }
+  /* line 51, scss.scss */
+  #main-container h2 {
+    font-family: helvetica, arial, sans-serif;
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.61);
+    margin-left: 10px; }
+
+/* line 63, scss.scss */
+section#container2 {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 250px; }
+  /* line 67, scss.scss */
+  section#container2 #sampleWebsites {
+    width: 100%;
+    height: 1000px;
+    margin-top: 230px; }
+    /* line 72, scss.scss */
+    section#container2 #sampleWebsites #github {
+      display: inline-block;
+      width: 300px;
+      height: 250px;
+      vertical-align: top;
+      background-color: rgba(3, 3, 3, 0.75);
+      border-radius: 10px; }
+    /* line 75, scss.scss */
+    section#container2 #sampleWebsites #resume {
+      display: inline-block;
+      width: 300px;
+      height: 250px;
+      vertical-align: top;
+      background-color: rgba(3, 3, 3, 0.75);
+      border-radius: 10px;
+      position: relative;
+      top: 20px; }
+    /* line 81, scss.scss */
+    section#container2 #sampleWebsites #resumePopout {
+      display: none;
+      background-color: #0d0c0c;
+      color: white;
+      width: 400px;
+      padding: 20px;
+      font-size: 20px;
+      position: absolute;
+      right: 10px;
+      top: 50px;
+      line-height: 30px;
+      border-radius: 30px; }
+    /* line 94, scss.scss */
+    section#container2 #sampleWebsites h2 {
+      font-size: 30px; }
+  /* line 101, scss.scss */
+  section#container2 #gitcontainer {
+    display: inline-block;
+    background-color: rgba(3, 3, 3, 0.75);
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 5%; }
+  /* line 109, scss.scss */
+  section#container2 #blogcontainer {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    vertical-align: top;
+    background-color: rgba(3, 3, 3, 0.75);
+    border-radius: 10px; }
+  /* line 118, scss.scss */
+  section#container2 #blog {
+    width: 250px;
+    position: relative;
+    top: 20px;
+    height: 210px;
+    border-radius: 25px; }
+  /* line 126, scss.scss */
+  section#container2 #resumecontainer {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    vertical-align: top;
+    background-color: #0d0c0c;
+    border-radius: 10px;
+    margin-right: 5%; }
+  /* line 136, scss.scss */
+  section#container2 button#close {
+    width: 75px;
+    display: block;
+    font-size: 15px;
+    margin: auto; }
+
+/* line 146, scss.scss */
+a {
+  color: white;
+  text-decoration: none; }
+
+/* line 152, scss.scss */
+section.centered {
+  padding-top: 30px;
+  width: 100%;
+  height: 390px;
+  margin-top: 25px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#27201c));
+  background: -webkit-linear-gradient(black, #27201c);
+  background: linear-gradient(black, #27201c); }
+
+/* line 161, scss.scss */
+article.sampleWebsites {
+  display: inline-block;
+  width: 450px;
+  margin-right: 5%;
+  text-align: left; }
+
+/* line 168, scss.scss */
+article h2 {
+  font-size: 30px;
+  font-family: "arial black", sans-serif;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-left: 0px; }
+
+/* line 177, scss.scss */
+article p {
+  font-family: georgia;
+  font-size: 20px;
+  color: white; }
+
+/* line 184, scss.scss */
+aside.imageWebsite {
+  display: inline-block;
+  vertical-align: top;
+  width: 450px; }
+
+/* line 191, scss.scss */
+aside img {
+  width: 100%; }
+
+/* line 197, scss.scss */
+h3 {
+  font-size: 30px;
+  color: #a9a9af;
+  text-align: center;
+  font-family: cursive;
+  margin-top: -19px; }
+
+/* line 205, scss.scss */
+#contactMe {
+  display: block;
+  margin-top: 15px;
+  margin-left: 170px; }
+
+/* line 211, scss.scss */
+footer {
+  width: 100%;
+  background-color: rgba(3, 3, 3, 0.64);
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: helvetica;
+  height: 50px;
+  padding-top: 20px; }
