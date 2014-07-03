@@ -88,13 +88,33 @@ section#container2 {
     right:10px;
     top:50px;
     line-height: 30px;
-    border-radius: 30px;
+    border-radius: 0px;
 
+}
+
+#resumePopout li{
+
+    list-style:disc;
+    margin-left: 40px;
+    font-size: 14px;
 }
 
 #resumePopout h2 {
     font-size: 30px;
+    margin-left:0px;
+    color:white;
+    margin-top: 15px;
 
+}
+
+#resumePopout h4 {
+
+    color:gray;
+
+}
+
+#resumePopout p{
+    color:gray;
 }
 
 #gitcontainer {

@@ -135,6 +135,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/grunnerSample.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27196,
+		"inputAbbreviatedPath": "\/img\/grunnerSample.jpg",
+		"outputAbbreviatedPath": "\/img\/grunnerSample.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hotcoldpic.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
