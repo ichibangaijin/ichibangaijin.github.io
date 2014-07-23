@@ -166,7 +166,11 @@ footer {
 
 
 /***** Module Styles*******/
-
+.center{
+	float:none;
+	margin:auto !important;
+	text-align:center !important;
+}
 
 .jumbo-header{
 	clear:both;
@@ -213,6 +217,9 @@ img.logo{
 
 .portfolio-box.float-right{
 	margin-right:20px;
+	@media(max-width:500px){
+		margin-right:0px;
+	}
 }
 
 
@@ -346,7 +353,7 @@ button.border {
 .portfolio-box{
 	position:relative;
 	width:45%;
-	height:200px;
+	height:300px;
 	background-color: rgba($color-box, .5);
 	display:inline-block;
 	margin-top: 20px;
@@ -357,8 +364,8 @@ button.border {
 		width:100%;
 		margin-left:0px
 	}
-
 }
+
 
 h2.h2-special{
 	opacity:.8;
