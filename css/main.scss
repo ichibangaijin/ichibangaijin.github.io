@@ -483,6 +483,9 @@ body{
 	background-position:80% top;
 	background-repeat: no-repeat;
 	z-index: -1;
+	@media(min-width: 1400px){
+		background-position:bottom;
+	}
 
 	
 }

@@ -519,8 +519,14 @@ body {
   background-repeat: no-repeat;
   z-index: -1;
 }
+@media (min-width: 1400px) {
+  /* line 480, main.scss */
+  .main-layout {
+    background-position: bottom;
+  }
+}
 
-/* line 490, main.scss */
+/* line 493, main.scss */
 .main-container {
   background-color: rgba(0, 0, 0, 0.9);
 }
