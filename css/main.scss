@@ -486,6 +486,9 @@ body{
 	@media(min-width: 1400px){
 		background-position:bottom;
 	}
+	@media(max-width:600px){
+		background:black;
+	}
 
 	
 }

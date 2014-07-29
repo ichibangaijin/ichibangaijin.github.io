@@ -525,8 +525,14 @@ body {
     background-position: bottom;
   }
 }
+@media (max-width: 600px) {
+  /* line 480, main.scss */
+  .main-layout {
+    background: black;
+  }
+}
 
-/* line 493, main.scss */
+/* line 496, main.scss */
 .main-container {
   background-color: rgba(0, 0, 0, 0.9);
 }
