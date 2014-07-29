@@ -280,25 +280,26 @@ img.logo {
   /* line 260, main.scss */
   .page-title {
     margin-bottom: 10px;
+    margin-left: 10px;
   }
 }
 
-/* line 272, main.scss */
+/* line 273, main.scss */
 .page-description {
   width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 @media (max-width: 500px) {
-  /* line 272, main.scss */
+  /* line 273, main.scss */
   .page-description {
     width: 95%;
-    margin: 0px;
     margin-bottom: 20px;
+    margin-left: 10px;
   }
 }
 
-/* line 284, main.scss */
+/* line 286, main.scss */
 .name-text,
 .email-text {
   margin-right: 10px;
@@ -307,7 +308,7 @@ img.logo {
   height: 36px;
 }
 @media (max-width: 500px) {
-  /* line 284, main.scss */
+  /* line 286, main.scss */
   .name-text,
   .email-text {
     width: 95%;
@@ -316,42 +317,42 @@ img.logo {
   }
 }
 
-/* line 296, main.scss */
+/* line 298, main.scss */
 .email-text {
   margin-top: 10px;
   width: 495px;
 }
 @media (max-width: 500px) {
-  /* line 296, main.scss */
+  /* line 298, main.scss */
   .email-text {
     width: 95%;
     margin-left: 0px;
   }
 }
 
-/* line 305, main.scss */
+/* line 307, main.scss */
 .join-button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 310, main.scss */
+/* line 312, main.scss */
 button.border {
   border: 1px solid black;
 }
 
-/* line 315, main.scss */
+/* line 317, main.scss */
 .margin-top-extend {
   margin-top: 30px;
 }
 
-/* line 319, main.scss */
+/* line 321, main.scss */
 .slide-container {
   width: 60%;
   margin: auto;
 }
 @media (max-width: 500px) {
-  /* line 319, main.scss */
+  /* line 321, main.scss */
   .slide-container {
     width: 100%;
   }
@@ -359,13 +360,13 @@ button.border {
 
 /***** State Styles*******/
 @media (max-width: 500px) {
-  /* line 332, main.scss */
+  /* line 334, main.scss */
   .hide {
     display: none;
   }
 }
 
-/* line 338, main.scss */
+/* line 340, main.scss */
 .portfolio-box {
   position: relative;
   width: 45%;
@@ -376,7 +377,7 @@ button.border {
   margin-right: 1%;
 }
 @media (max-width: 500px) {
-  /* line 338, main.scss */
+  /* line 340, main.scss */
   .portfolio-box {
     height: 200px;
     position: relative;
@@ -386,7 +387,7 @@ button.border {
   }
 }
 
-/* line 357, main.scss */
+/* line 359, main.scss */
 h2.h2-special {
   opacity: .8;
   position: absolute;
@@ -396,7 +397,7 @@ h2.h2-special {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 367, main.scss */
+/* line 369, main.scss */
 .hidden-box {
   opacity: 0;
   transition: opacity 1.2s, height 1.2s ease;
@@ -407,13 +408,13 @@ h2.h2-special {
   padding-left: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 376, main.scss */
+/* line 378, main.scss */
 .hidden-box h2 {
   margin-bottom: 7px;
   margin-top: 10px;
 }
 @media (max-width: 500px) {
-  /* line 367, main.scss */
+  /* line 369, main.scss */
   .hidden-box {
     width: 100%;
     height: 200px;
@@ -421,19 +422,19 @@ h2.h2-special {
   }
 }
 
-/* line 390, main.scss */
+/* line 392, main.scss */
 .hidden-box > p {
   text-indent: 20px;
 }
 
-/* line 394, main.scss */
+/* line 396, main.scss */
 .hidden-box button {
   margin-top: 15px;
   display: block;
   margin: auto;
 }
 
-/* line 401, main.scss */
+/* line 403, main.scss */
 .img-box {
   height: 120px;
   float: left;
@@ -441,7 +442,7 @@ h2.h2-special {
   padding-bottom: 5px;
 }
 
-/* line 409, main.scss */
+/* line 411, main.scss */
 .hidden-slide-show {
   display: none;
   width: 70%;
@@ -449,26 +450,26 @@ h2.h2-special {
   margin-top: 50px;
 }
 
-/* line 419, main.scss */
+/* line 421, main.scss */
 .portfolio-box:hover .hidden-box {
   transition: all 2s ease;
   opacity: 1;
 }
 
-/* line 428, main.scss */
+/* line 430, main.scss */
 .portfolio-box:hover .img-box {
   transition: opacity 4s ease;
   opacity: 1;
 }
 
-/* line 433, main.scss */
+/* line 435, main.scss */
 .portfolio-box:hover .hidden-text {
   transition: opacity 4s ease;
   opacity: 1;
 }
 
 /*** slide show ***/
-/* line 439, main.scss */
+/* line 441, main.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -478,7 +479,7 @@ h2.h2-special {
   margin: 0;
 }
 
-/* line 448, main.scss */
+/* line 450, main.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -488,14 +489,14 @@ h2.h2-special {
   top: 0;
 }
 
-/* line 457, main.scss */
+/* line 459, main.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 463, main.scss */
+/* line 465, main.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -505,12 +506,12 @@ h2.h2-special {
 }
 
 /***** Theme Styles*******/
-/* line 474, main.scss */
+/* line 476, main.scss */
 body {
   background-color: black;
 }
 
-/* line 478, main.scss */
+/* line 480, main.scss */
 .main-layout {
   background-image: url(../images/temple3.jpg);
   background-size: cover;
@@ -519,7 +520,7 @@ body {
   z-index: -1;
 }
 
-/* line 488, main.scss */
+/* line 490, main.scss */
 .main-container {
   background-color: rgba(0, 0, 0, 0.9);
 }
