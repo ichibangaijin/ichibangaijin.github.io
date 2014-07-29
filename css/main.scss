@@ -326,6 +326,18 @@ button.border {
 	}
 }
 
+.project-description{
+	display:block;
+	color: $color-p;
+	background-color: black;
+	padding-top: 200px;
+}
+
+h2.project-title{
+	color:$color-jumbo;
+	font-size: 20px;
+}
+
 
 
 /***** State Styles*******/
