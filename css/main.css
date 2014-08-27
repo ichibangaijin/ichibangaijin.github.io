@@ -247,28 +247,35 @@ img.logo {
 .i-container {
   width: 100%;
   text-align: center;
+  margin-top: 20px;
+}
+@media (max-width: 500px) {
+  /* line 237, main.scss */
+  .i-container {
+    margin-top: 0px;
+  }
 }
 
-/* line 243, main.scss */
+/* line 248, main.scss */
 .float-right {
   display: inline-block;
   float: right;
 }
 
-/* line 249, main.scss */
+/* line 254, main.scss */
 .float-left {
   display: inline-block;
   clear: left;
   float: left;
 }
 
-/* line 255, main.scss */
+/* line 260, main.scss */
 .no-clear-float-left {
   display: inline-block;
   float: left;
 }
 
-/* line 260, main.scss */
+/* line 265, main.scss */
 .page-title {
   float: left;
   clear: left;
@@ -277,21 +284,21 @@ img.logo {
   width: 100%;
 }
 @media (max-width: 500px) {
-  /* line 260, main.scss */
+  /* line 265, main.scss */
   .page-title {
     margin-bottom: 10px;
     margin-left: 10px;
   }
 }
 
-/* line 273, main.scss */
+/* line 278, main.scss */
 .page-description {
   width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 @media (max-width: 500px) {
-  /* line 273, main.scss */
+  /* line 278, main.scss */
   .page-description {
     width: 95%;
     margin-bottom: 20px;
@@ -299,7 +306,7 @@ img.logo {
   }
 }
 
-/* line 286, main.scss */
+/* line 291, main.scss */
 .name-text,
 .email-text {
   margin-right: 10px;
@@ -308,7 +315,7 @@ img.logo {
   height: 36px;
 }
 @media (max-width: 500px) {
-  /* line 286, main.scss */
+  /* line 291, main.scss */
   .name-text,
   .email-text {
     width: 95%;
@@ -317,48 +324,48 @@ img.logo {
   }
 }
 
-/* line 298, main.scss */
+/* line 303, main.scss */
 .email-text {
   margin-top: 10px;
   width: 495px;
 }
 @media (max-width: 500px) {
-  /* line 298, main.scss */
+  /* line 303, main.scss */
   .email-text {
     width: 95%;
     margin-left: 0px;
   }
 }
 
-/* line 307, main.scss */
+/* line 312, main.scss */
 .join-button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 312, main.scss */
+/* line 317, main.scss */
 button.border {
   border: 1px solid black;
 }
 
-/* line 317, main.scss */
+/* line 322, main.scss */
 .margin-top-extend {
   margin-top: 30px;
 }
 
-/* line 321, main.scss */
+/* line 326, main.scss */
 .slide-container {
   width: 60%;
   margin: auto;
 }
 @media (max-width: 500px) {
-  /* line 321, main.scss */
+  /* line 326, main.scss */
   .slide-container {
     width: 100%;
   }
 }
 
-/* line 329, main.scss */
+/* line 334, main.scss */
 .project-description {
   display: block;
   color: rgba(255, 255, 255, 0.8);
@@ -366,7 +373,7 @@ button.border {
   padding-top: 200px;
 }
 
-/* line 336, main.scss */
+/* line 341, main.scss */
 h2.project-title {
   color: gray;
   font-size: 20px;
@@ -374,24 +381,24 @@ h2.project-title {
 
 /***** State Styles*******/
 @media (max-width: 500px) {
-  /* line 346, main.scss */
+  /* line 351, main.scss */
   .hide {
     display: none;
   }
 }
 
-/* line 352, main.scss */
+/* line 357, main.scss */
 .portfolio-box {
   position: relative;
   width: 45%;
-  height: 270px;
+  height: 300px;
   background-color: rgba(255, 255, 255, 0.5);
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-right: 1%;
 }
 @media (max-width: 500px) {
-  /* line 352, main.scss */
+  /* line 357, main.scss */
   .portfolio-box {
     height: 200px;
     position: relative;
@@ -401,7 +408,7 @@ h2.project-title {
   }
 }
 
-/* line 371, main.scss */
+/* line 376, main.scss */
 h2.h2-special {
   opacity: .8;
   position: absolute;
@@ -411,24 +418,24 @@ h2.h2-special {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 381, main.scss */
+/* line 386, main.scss */
 .hidden-box {
   opacity: 0;
   transition: opacity 1.2s, height 1.2s ease;
   position: absolute;
   width: 100%;
-  height: 270px;
+  height: 300px;
   bottom: 0;
   padding-left: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 390, main.scss */
+/* line 395, main.scss */
 .hidden-box h2 {
   margin-bottom: 7px;
   margin-top: 10px;
 }
 @media (max-width: 500px) {
-  /* line 381, main.scss */
+  /* line 386, main.scss */
   .hidden-box {
     width: 100%;
     height: 200px;
@@ -436,19 +443,19 @@ h2.h2-special {
   }
 }
 
-/* line 404, main.scss */
+/* line 409, main.scss */
 .hidden-box > p {
   text-indent: 20px;
 }
 
-/* line 408, main.scss */
+/* line 413, main.scss */
 .hidden-box button {
-  margin-top: 15px;
+  margin-top: 25px;
   display: block;
   margin: auto;
 }
 
-/* line 415, main.scss */
+/* line 420, main.scss */
 .img-box {
   height: 120px;
   float: left;
@@ -456,7 +463,7 @@ h2.h2-special {
   padding-bottom: 5px;
 }
 
-/* line 423, main.scss */
+/* line 428, main.scss */
 .hidden-slide-show {
   display: none;
   width: 70%;
@@ -464,26 +471,26 @@ h2.h2-special {
   margin-top: 50px;
 }
 
-/* line 433, main.scss */
+/* line 438, main.scss */
 .portfolio-box:hover .hidden-box {
   transition: all 2s ease;
   opacity: 1;
 }
 
-/* line 442, main.scss */
+/* line 447, main.scss */
 .portfolio-box:hover .img-box {
   transition: opacity 4s ease;
   opacity: 1;
 }
 
-/* line 447, main.scss */
+/* line 452, main.scss */
 .portfolio-box:hover .hidden-text {
   transition: opacity 4s ease;
   opacity: 1;
 }
 
 /*** slide show ***/
-/* line 453, main.scss */
+/* line 458, main.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -493,7 +500,7 @@ h2.h2-special {
   margin: 0;
 }
 
-/* line 462, main.scss */
+/* line 467, main.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -503,14 +510,14 @@ h2.h2-special {
   top: 0;
 }
 
-/* line 471, main.scss */
+/* line 476, main.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 477, main.scss */
+/* line 482, main.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -520,12 +527,12 @@ h2.h2-special {
 }
 
 /***** Theme Styles*******/
-/* line 488, main.scss */
+/* line 493, main.scss */
 body {
   background-color: black;
 }
 
-/* line 492, main.scss */
+/* line 497, main.scss */
 .main-layout {
   background-image: url(../images/temple3.jpg);
   background-size: cover;
@@ -534,19 +541,19 @@ body {
   z-index: -1;
 }
 @media (min-width: 1400px) {
-  /* line 492, main.scss */
+  /* line 497, main.scss */
   .main-layout {
     background-position: bottom;
   }
 }
 @media (max-width: 600px) {
-  /* line 492, main.scss */
+  /* line 497, main.scss */
   .main-layout {
     background: black;
   }
 }
 
-/* line 508, main.scss */
+/* line 513, main.scss */
 .main-container {
   background-color: rgba(0, 0, 0, 0.9);
 }

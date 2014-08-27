@@ -1,12 +1,10 @@
 $(document).ready(function(){
-	$(".portfolio-box").click(function(){
+	$("#portfolioButton").click(function(){
 		$(".portfolio-box").css("display", "none");
 		$(".page-title").text("Some of my recent projects...");
-		$(".page-description").text("I believe the web is mankind's greatest creation.  Never before has the world been so connected, and now that I am becoming a developer, I feel like I am part of this legacy.");
+		$(".page-description").hide();
 		$(".hidden-slide-show").show();
-		alert("So sorry, this page is under construction.  Please email for links to the projects. You will find the home button and email link at the top of the page.  Thanks!  Matt.");
-				
-	
+		
 
 		});
 });
